@@ -1,2 +1,2 @@
 # Portfolio
-Aca se encuentra toda la parte Front End de este proyecto
+Aca se encuentra el Front End Y Back End de este proyecto
