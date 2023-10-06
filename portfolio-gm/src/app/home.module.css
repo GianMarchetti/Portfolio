@@ -1,0 +1,10 @@
+.About{
+    display: flex;
+
+}
+.fondo{
+    width: 550px;
+    height: 600px;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(193,26,178,1) 10%, rgba(0,0,0,1) 25%, rgba(0,0,0,1) 44%, rgba(116,3,13,1) 51%, rgba(116,3,13,1) 58%, rgba(0,0,0,1) 63%);
+}
