@@ -1,6 +1,6 @@
 import './globals.css'
 import { Gabarito } from 'next/font/google'
-import { Navigation } from './components/Navbar'
+import { NavBar } from './components/Navbar'
 import Footer from './components/Footer'
 
 const gabarito = Gabarito({ subsets: ['latin'] })
@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={gabarito.className}>
-      <Navigation />
+      <NavBar />
       {children}
       <Footer />
       </body>
