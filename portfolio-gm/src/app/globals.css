@@ -17,10 +17,10 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: black;
+  /* color: rgb(var(--foreground-rgb)); */
+  /* background: black; */
 }
 main {
-  margin-top: 17em;
+  /* margin-top: 17em; */
   /* text-align: center; */
 }

@@ -1,55 +1,18 @@
+/* eslint-disable react/no-unescaped-entities */
 'use client'
 import '../globals.css'
 import { usePathname } from 'next/navigation'
+import logo from '../assets/imgs/firma.png'
 import Link from 'next/link'
 import styles from './Components.module.css'
 import Image from 'next/image'
-import Logo from '../assets/icons/logov2.png'
+import Logo from '../assets/icons/firma2.png'
 import logoMob from '../assets/icons/logo2.png'
 import { Pixelify_Sans } from 'next/font/google'
 import React, { useState, useEffect } from "react";
-import { useAnimate, stagger, motion } from "framer-motion";
 import './dropdown.css'
 import { Button } from '@nextui-org/react'
-
-
-const staggerMenuItems = stagger(0.1, { startDelay: 0.15 });
-
-
-function useMenuAnimationMob(isOpen = boolean) {
-  const [scopeMob, animateMob] = useAnimate();
-
-  useEffect(() => {
-    animateMob(".arrow", { rotate: isOpen ? 180 : 0 }, { duration: 0.2 });
-
-    animateMob(
-      "ul",
-      {
-        clipPath: isOpen
-          ? "inset(0% 0% 0% 0% round 10px)"
-          : "inset(10% 50% 90% 50% round 10px)"
-      },
-      {
-        type: "spring",
-        bounce: 0,
-        duration: 0.5
-      }
-    );
-
-    animateMob(
-      "li",
-      isOpen
-        ? { opacity: 1, scale: 1, filter: "blur(0px)" }
-        : { opacity: 0, scale: 0.3, filter: "blur(20px)" },
-      {
-        duration: 0.2,
-        delay: isOpen ? staggerMenuItems : 0
-      }
-    );
-  }, [isOpen]);
-
-  return scopeMob;
-}
+import { ThemeToggle } from './theme-toggle'
 
 const linkDesk = [{
   label: 'Home',
@@ -89,50 +52,42 @@ const linksMob = [{
 export function NavBar () {
 
   const [isOpen, setIsOpen] = useState(false);
-  const scopeMob = useMenuAnimationMob(isOpen);  
   const pathname = usePathname()
 
   return (
     <>
-      <header className={styles.header} >
+      <header className="sticky top-0 z-40 w-full h-fit border-b bg-background flex flex-row p-2">
 
 {/* -----------------Menu Desktop------------------------------- */}
-        <nav className='w-full'>
+        <nav className='h-fit w-full'>
 
-          <div className={styles.Desk}>
-            <Link href='/' className={styles.logoDesk}>
-              <Image as alt='Logo de Gian Luca Marchetti' src={Logo} className={styles.logoImg}/>
+          <div className="mx-auto flex flex-row h-fit max-w-full items-center justify-between space-x-4 px-6 sm:space-x-0 md:flex-col sm:text-xs ">
+            <Link href='/' className='w-fit h-fit pt-2'>
+              <Image alt='Logo de Gian Luca Marchetti' src={logo} width={200} height={200} className="h-16 w-36 p-2"/>
             </Link>
-            <ul className='relative h-fit top-auto justify-center' >
+            <ul className='relative h-fit top-auto justify-center bg-transparent flex-row' >
                 {linkDesk.map(({ label, route }) => (
-                <li key={route} className='relative h-fit top-auto'>
+                <li key={route} className='relative h-fit top-auto flex-row text-black dark:text-white'>
                   <Link href={route}>
                     {label}
                   </Link>
                 </li>
               ))}
             </ul>{" "}
-            <Link href={``}> 
-              <Button className='bg-white'>
-                Let's Talk
-              </Button> 
-            </Link>
+            <div className='flex items-center justify-between'>
+              <ThemeToggle />
+              <Link href={``} className='w-fit'> 
+                <Button className='w-fit text-white bg-black dark:bg-white dark:text-black'>
+                  Let's Talk
+                </Button> 
+              </Link>
+            </div>
           </div>
 
 {/*---------------------- Menu Mobile ------------------------------------*/}
 
-          <div className={styles.dropMob}>
-            <div className="menu" ref={scopeMob} >
-            <motion.button 
-                whileTap={{ scale: 0.97 }}
-                onClick={() => setIsOpen(!isOpen)}
-            >
-                <div className="arrow" style={{ transformOrigin: "50% 55%" }}>
-                    <svg width="15" height="15" viewBox="0 0 20 20">
-                        <path d="M0 7 L 20 7 L 10 16" />
-                    </svg>
-                </div>
-            </motion.button> 
+          {/* <div className={styles.dropMob}>
+            <div className="menu" >
                   <ul style={{
                       pointerEvents: isOpen ? "auto" : "none",
                       clipPath: "inset(10% 50% 90% 50% round 10px)"
@@ -148,9 +103,9 @@ export function NavBar () {
             </div>
             
             <Link href='/' className={styles.logoMob}>
-              <Image as alt='Logo de Gian Luca Marchetti' src={logoMob} className={styles.logoImg}/>
+              <Image as={NextImage} alt='Logo de Gian Luca Marchetti' src='https://i.ibb.co/6bJchMC/firma.png' width={200} height={200} className={styles.logoImg}/>
             </Link>
-          </div>
+          </div> */}
 
         </nav>
 

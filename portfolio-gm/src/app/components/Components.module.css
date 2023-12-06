@@ -1,49 +1,9 @@
-.header {
-    color: white;
-    background-color: black;
-    border-bottom: solid 1px #111111;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    top: -8px;
-    z-index: 9999;
-    padding: 8px;
-}
-
-.logoImg {
-    width: 81px;
-    height: 81px;
-    border-radius: 8px;
-}
-
-.Desk {
-    margin-top: 8px;
-    width: 100%;
-    padding: 4px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 32px;
-}
-
-.Desk ul{
-    flex-direction: row;
-    background-color: black;
-}
-
-.Desk li{
-    color: white;
-}
 
 .dropMob {
     display: none;
 }
 
 .footer {
-    color: white;
-    border-top: solid 1px #111111;
     text-align: center;
     margin-top: 2em;
     padding: 8px;
@@ -55,10 +15,12 @@
 .redes {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .aLink {
     font-size: small;
+    margin-top: 2%;
 }
 
 .aLink :hover{
@@ -67,14 +29,6 @@
 
 .ig{
     display: inline;
-}
-
-
-.arrow{
-    position: absolute;
-    display: flex;
-    align-items: flex-end;
-    width: 15%;
 }
 
 .arrowT{
@@ -96,7 +50,7 @@
         width: 5em;
     }
     .Desk{
-        display: none;
+        /* display: none; */
     }
     .dropMob{
         width: 100%;
@@ -105,9 +59,7 @@
         justify-content: space-around;
         align-items: center;
     }
-    .tienda{
-        color: black;
-    }
+
     .footer{
         flex-direction: row;
         position: fixed;

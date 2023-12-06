@@ -12,17 +12,15 @@ const Font = Pixelify_Sans({
 
 export default function Footer(){
     return(
-        <>
-      <footer className={styles.footer}>
+      <>
+      <footer className='border-t border-slate-300 flex text-center mt-2 p-2 w-full'>
         <div className={styles.redes}>
           <p>Follow me</p>
-            <Link href='https://www.instagram.com/yas.casabonita/'> 
+            <Link href='https://www.instagram.com/gian_marchetti' className='mt-4'> 
               <Instagram className={styles.ig} />
             </Link>
         <Link href='https://www.linkedin.com/in/gian-marchetti-8713ba1b6/' className={styles.aLink}>
-          <marquee className={Font.className}>Page created by 
-          Gian Marchetti
-          </marquee>
+          <p className={Font.className}>Page created by Gian Marchetti</p>
         </Link>
       </div>
       </footer>
