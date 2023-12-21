@@ -1,4 +1,4 @@
-import styles from '../home.module.css'
+import './work.style.css'
 
 import { Button, Image } from "@nextui-org/react";
 import { Github, Linkedin, Dribbble } from "lucide-react"
@@ -7,90 +7,81 @@ import Link from "next/link"
 
 export default function WorkExperience(){
     return(
-        <section className="p-6">
-        <div className="container bg-slate-300 dark:bg-slate-800 p-4">
-            <div className="flex">
+        <section className="p-8 w-full flex justify-center text-left text-black dark:text-white">
+        <div className="container border-2 p-4 sm:p-2">
+            <div className="flex md:flex-col">
 
-                <div className="col-lg-6 col-12 border-r p-4">
-                  <h2 className="mb-4 text-4xl">Work Experience</h2>
+                <div className="col-lg-6 col-12 border-r dark:border-white p-4 w-2/4 md:w-full md:border-b md:border-r-0 sm:text-xs sm:p-0 sm:mb-2">
+                  <h2 className="mb-4 text-4xl sm:text-2xl">Work Experience</h2>
 
                     <div className="timeline">
-                        <div className="timeline-wrapper">
-                             <div className="timeline-yr">
-                                  <span>2019</span>
+                        <div className="timelineWrapper">
+                             <div className="timelineYR">
+                                  <span>2021</span>
                              </div>
-                             <div className="timeline-info">
-                                  <h3><span>Project Manager</span><small>Best Studio</small></h3>
-                                  <p>Proin ornare non purus ut rutrum. Nulla facilisi. Aliquam laoreet libero ac pharetra feugiat. Cras ac fermentum nunc, a faucibus nunc.</p>
+                             <div className="timelineInfo">
+                                  <h3><span>Tutor Web Development</span><small>Coderhouse</small></h3>
+                                  <p>In my role as a tutor, I play a pivotal role in guiding individuals through the intricacies of web development.</p>
                              </div>
                         </div>
 
-                        <div className="timeline-wrapper">
-                            <div className="timeline-yr">
-                                <span>2018</span>
+                        <div className="timelineWrapper">
+                            <div className="timelineYR">
+                                <span>2022</span>
                             </div>
-                            <div className="timeline-info">
-                                <h3><span>UX Designer</span><small>Digital Ace</small></h3>
-                                <p>Fusce rutrum augue id orci rhoncus molestie. Nunc auctor dignissim lacus vel iaculis.</p>
-                            </div>
-                        </div>
-
-                        <div className="timeline-wrapper">
-                            <div className="timeline-yr">
-                                <span>2016</span>
-                            </div>
-                            <div className="timeline-info">
-                                <h3><span>UI Freelancer</span></h3>
-                                <p>Sed fringilla vitae enim sit amet cursus. Sed cursus dictum tortor quis pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                            </div>
-                        </div>
-                        
-                        <div className="timeline-wrapper">
-                            <div className="timeline-yr">
-                                <span>2014</span>
-                            </div>
-                            <div className="timeline-info">
-                                <h3><span>Junior Designer<small>Crafted Co.</small></span></h3>
-                                <p>Cras scelerisque scelerisque condimentum. Nullam at volutpat mi. Nunc auctor ipsum eget magna consequat viverra.</p>
+                            <div className="timelineInfo">
+                                <h3><span>Freelance Front End Developer</span><small>Freelance</small></h3>
+                                <p>My goal is to create websites with designs that are not only innovative, but also very interactive and easy to use.</p>
                             </div>
                         </div>
 
                     </div>
                 </div>
 
-                <div className="col-lg-6 col-12 p-4">
-                  <h2 className="mb-4 mobile-mt-2 text-4xl">Educations</h2>
+                <div className="col-lg-6 col-12 p-4 w-2/4 md:w-full sm:text-xs sm:p-0">
+                  <h2 className="mb-4 mobile-mt-2 text-4xl sm:text-2xl">Educations</h2>
 
                     <div className="timeline">
-                        <div className="timeline-wrapper">
-                             <div className="timeline-yr">
-                                  <span>2017</span>
-                             </div>
-                             <div className="timeline-info">
-                                  <h3><span>Mobile Web</span><small>Master Design</small></h3>
-                                  <p>Please tell your friends about Tooplate website. That would be very helpful. We need your support.</p>
-                             </div>
+                    
+                        <div className="timelineWrapper">
+                            <div className="timelineYR">
+                                <span>2021</span>
+                            </div>
+                            <div className="timelineInfo">
+                                <h3><span>Front End Developer</span><small>Coderhouse</small></h3>
+                                <p>Career composed of 3 courses, these are Web Development, JavaScript, React Js. Final exams passed with an average of 8</p>
+                            </div>
                         </div>
 
-                        <div className="timeline-wrapper">
-                            <div className="timeline-yr">
-                                <span>2015</span>
+                        <div className="timelineWrapper">
+                            <div className="timelineYR">
+                                <span>2022</span>
                             </div>
-                            <div className="timeline-info">
-                                <h3><span>User Interfaces</span><small>Creative Agency</small></h3>
-                                <p><a rel="nofollow" href="https://www.facebook.com/tooplate">Tooplate</a> is a great website to download HTML templates without any login or email.</p>
-                            </div>
-                        </div>
-                        
-                        <div className="timeline-wrapper">
-                            <div className="timeline-yr">
-                                <span>2013</span>
-                            </div>
-                            <div className="timeline-info">
-                                <h3><span>Artwork Design</span><small>New Art School</small></h3>
-                                <p>You can freely use Tooplats templates for your business or personal sites. You cannot redistribute this template without a permission.</p>
+                            <div className="timelineInfo">
+                                <h3><span>Front End</span><small>Autonomous</small></h3>
+                                <p>Complementary technologies courses that help me improve as a developer. Like Next JS, TailwindCSS, Sanity and more</p>
                             </div>
                         </div>
+
+                        <div className="timelineWrapper">
+                            <div className="timelineYR">
+                                <span>2023</span>
+                            </div>
+                            <div className="timelineInfo">
+                                <h3><span>WordPress</span><small>Udemy</small></h3>
+                                <p>Course in which I learned to carry out the management and design of creative and high impact content and to use the main tools of the program, to carry out the content management in a professional and efficient way.</p>
+                            </div>
+                        </div>
+
+                        {/* <div className="timelineWrapper">
+                            <div className="timelineYR">
+                                <span>2024</span>
+                            </div>
+                            <div className="timelineInfo">
+                                <h3><span>Back End Developer</span><small>Autonomous</small></h3>
+                                <p>Node.js, MongoDB, Server-side JavaScript, SQL and NoSQL course</p>
+                            </div>
+                        </div> */}
 
                     </div>
                 </div>

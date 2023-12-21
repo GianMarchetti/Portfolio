@@ -3,6 +3,20 @@
     display: none;
 }
 
+.logo {
+    width: fit-content;
+    height: fit-content;
+}
+
+.Buttons {
+    width: fit-content;
+    height: fit-content;
+    margin: 0% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .footer {
     text-align: center;
     margin-top: 2em;
@@ -14,8 +28,10 @@
 
 .redes {
     display: flex;
-    flex-direction: column;
-    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 15em;
+    padding: 8px;
 }
 
 .aLink {
@@ -27,33 +43,24 @@
     color: red;
 }
 
-.ig{
-    display: inline;
-}
-
 .arrowT{
     font-size: 10px;
 }
 
+
 @media screen and (max-width: 850px) {
-    .header{
-        padding: 0%;
-        display: block;
-        position: fixed;
-        width: 100%;
-        top: 0;
-        z-index: 1;
-        /* opacity: 0.8; */
-    }
     .logoImg{
         height: 5em;
         width: 5em;
     }
-    .Desk{
-        /* display: none; */
+    .logo {
+        margin-left: 60px !important;
+    }
+    .dropDesk{
+        display: none;
     }
     .dropMob{
-        width: 100%;
+        width: fit-content;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -61,22 +68,21 @@
     }
 
     .footer{
-        flex-direction: row;
         position: fixed;
         bottom: -1vh;
         width: 100%;
         padding: 1%;
         z-index: 1000;
     }
-    .redes{
-        flex-direction: row;
-        justify-content: center;
-        padding: 2%;
-    }
-    .ig{
-        margin-left: 2px;
-    }
-    .aLink{
+}
+
+@media screen and (max-width: 450px) {
+    .BtnContact{
         display: none;
     }
+    .logo {
+        padding: 8px;
+        margin-left: 0 !important;
+    }
+    
 }

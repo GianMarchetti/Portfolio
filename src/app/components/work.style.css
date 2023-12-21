@@ -1,0 +1,58 @@
+
+  .timelineWrapper {
+    position: relative;
+    padding: 22px 0;
+  }
+
+  .timelineWrapper:last-child:before {
+    height: 0;
+  }
+
+  .timelineWrapper:before {
+    content: "";
+    background: #474559;
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    left: 38px;
+  }
+  
+  .timelineYR {
+    background: #474559;
+    border-radius: 100%;
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+  }
+  
+  .timelineYR span {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    line-height: 75px;
+  }
+  
+  .timelineInfo {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 432px;
+    margin-left: 6em;
+  }
+  
+  .timelineInfo small {
+    color: #474559;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+  }
+
+@media screen and (max-width: 450px) {
+  .timelineInfo{
+    padding: 4px;
+  }
+}
