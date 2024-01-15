@@ -1,4 +1,4 @@
-import './Components.css'
+import '../styles/Components.css'
 import Image from 'next/image';
 import { Pixelify_Sans } from 'next/font/google'
 import { Instagram, GithubIcon, LinkedinIcon, Dribbble, Pencil } from "lucide-react"
@@ -13,7 +13,7 @@ const Font = Pixelify_Sans({
 export default function Footer(){
     return(
       <>
-      <footer className='border-t border-slate-300 flex flex-col items-center text-center mt-2 p-2 w-full'>
+      <footer className='footer border-t border-slate-300 flex flex-col items-center text-center mt-2 p-2'>
         <p>Follow me</p>
         <div className="redes">
             <Link href='https://www.instagram.com/gian_marchetti' className='mt-4'> 

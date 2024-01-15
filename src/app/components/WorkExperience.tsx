@@ -1,4 +1,4 @@
-import './work.style.css'
+import '../styles/work.style.css'
 
 import { Button, Image } from "@nextui-org/react";
 import { Github, Linkedin, Dribbble } from "lucide-react"
@@ -63,7 +63,7 @@ export default function WorkExperience(){
                             </div>
                         </div>
 
-                        <div className="timelineWrapper">
+                        {/* <div className="timelineWrapper">
                             <div className="timelineYR">
                                 <span>2023</span>
                             </div>
@@ -71,7 +71,7 @@ export default function WorkExperience(){
                                 <h3><span>WordPress</span><small>Udemy</small></h3>
                                 <p>Course in which I learned to carry out the management and design of creative and high impact content and to use the main tools of the program, to carry out the content management in a professional and efficient way.</p>
                             </div>
-                        </div>
+                        </div> */}
 
                         {/* <div className="timelineWrapper">
                             <div className="timelineYR">

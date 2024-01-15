@@ -18,7 +18,7 @@ module.exports = {
       colors: {},
       screens:{
         'xxl': {'min': '1500px'},
-        'md': {'max': '767px'},
+        'md': {'max': '850px'},
         'sm': {'max': '460px'},
       }
     },

@@ -1,4 +1,4 @@
-import './globals.css'
+import './styles/globals.css'
 import { Gabarito } from 'next/font/google'
 import { NavBar } from './components/Navbar'
 import Footer from './components/Footer'

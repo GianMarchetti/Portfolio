@@ -1,5 +1,5 @@
 import { Button, Image } from "@nextui-org/react";
-import { Github, Linkedin, Dribbble, Download } from "lucide-react"
+import { Github, Linkedin, Dribbble, Download, FileText } from "lucide-react"
 import NextImage from 'next/image'
 import Link from "next/link"
 
@@ -35,7 +35,7 @@ export default function Presentation(){
 
                     <div className='flex justify-evenly mt-6'>
                         <Link href='https://drive.google.com/file/d/1U5UgFKoqpdPFcwBXyuJ32nwlhefcYOQf/view?usp=drive_link' className='rounded-xl border-2 border-white dark:shadow-lg dark:shadow-red-950'>
-                            <Button className='bg-black text-white shadow-lg shadow-red-950 dark:shadow-none'>CV <Download/> </Button>
+                            <Button className='bg-black text-white shadow-lg shadow-red-950 dark:shadow-none'>CV <FileText/> </Button>
                         </Link>
                         <Link href='https://linktr.ee/GianMarchetti' className='rounded-xl border-2 border-white dark:shadow-lg dark:shadow-red-950'>
                             <Button className='bg-black text-white shadow-lg shadow-red-950 dark:shadow-none'>Hire Me</Button>
