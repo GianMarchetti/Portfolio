@@ -23,18 +23,14 @@ export default function Contact() {
     <>
         <section className="w-full flex flex-col items-center" id="contact">
             <h2 className="text-2xl mt-2 mb-8">Contact Me!</h2>
-            <form id="contact-form" className="form">
+            <form id="contact-form" className="form w-full">
                 <input type="hidden" name="contact_number"/>
-                <div className="flex justify-between">
-                    <div className="flex flex-col">
-                        <input type="text" name="user_name" placeholder="Name" className="bg-black dark:bg-white h-10 mb-2 text-white dark:text-black rounded-md p-2" />
-                    </div>
-                    <div className="flex flex-col">
-                        <input type="email" name="user_email" placeholder="Email" className="bg-black dark:bg-white h-10 mb-2 text-white dark:text-black rounded-md p-2" />
-                    </div>
+                <div className="flex justify-between sm:flex-col gap-2 w-full mb-2">
+                    <input type="text" name="user_name" placeholder="Name" className="bg-black dark:bg-white h-10 mb-2 text-white dark:text-black rounded-md p-4 w-full " />
+                    <input type="email" name="user_email" placeholder="Email" className="bg-black dark:bg-white h-10 mb-2 text-white dark:text-black rounded-md p-4 w-full " />
                 </div>
-                <textarea aria-label="text" name="message" placeholder="Message" className="bg-black dark:bg-white h-32 text-white dark:text-black rounded-md p-2"></textarea>
-                <input type="submit" value="Send" className="bg-black dark:bg-white text-white dark:text-black rounded-md p-2 mt-2" />
+                <textarea aria-label="text" name="message" placeholder="Message" className="bg-black dark:bg-white h-32 text-white dark:text-black rounded-md p-4 "></textarea>
+                <input type="submit" value="Send" className="bg-black dark:bg-white text-white dark:text-black rounded-md mt-4 p-2 " />
             </form>
         </section>
     </>
