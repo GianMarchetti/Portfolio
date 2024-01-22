@@ -17,7 +17,7 @@ export default function WorkExperience(){
                     <div className="timeline">
                         <div className="timelineWrapper">
                              <div className="timelineYR">
-                                  <span>2021</span>
+                                  <span>Present</span>
                              </div>
                              <div className="timelineInfo">
                                   <h3><span>Tutor Web Development</span><small>Coderhouse</small></h3>
@@ -27,7 +27,7 @@ export default function WorkExperience(){
 
                         <div className="timelineWrapper">
                             <div className="timelineYR">
-                                <span>2022</span>
+                                <span>Present</span>
                             </div>
                             <div className="timelineInfo">
                                 <h3><span>Freelance Front End Developer</span><small>Freelance</small></h3>
