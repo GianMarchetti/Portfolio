@@ -5,7 +5,7 @@ import Link from "next/link"
 
 export default function Presentation(){
     return(
-            <section className="flex justify-center items-center w-full md:flex-col-reverse sm:text-xs">
+            <section className="flex justify-center items-center w-full md:flex-col-reverse sm:text-xs mt-4">
                 <div className='sm:w-full w-2/4 xxl:w-1/4 md:mt-4 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-white from-50% via-red-800 via-55% to-white to-60% dark:from-black dark:via-red-950 dark:to-black z-10 flex justify-center'>
                     <Image
                         as={NextImage} 

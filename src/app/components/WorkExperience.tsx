@@ -12,7 +12,7 @@ export default function WorkExperience(){
             <div className="flex md:flex-col">
 
                 <div className="col-lg-6 col-12 border-r dark:border-white p-4 w-2/4 md:w-full md:border-b md:border-r-0 sm:text-xs sm:p-0 sm:mb-2">
-                  <h2 className="mb-4 text-4xl sm:text-2xl">Work Experience</h2>
+                  <h2 className="mb-4 text-3xl font-bold">Work Experience</h2>
 
                     <div className="timeline">
                         <div className="timelineWrapper">
@@ -39,7 +39,7 @@ export default function WorkExperience(){
                 </div>
 
                 <div className="col-lg-6 col-12 p-4 w-2/4 md:w-full sm:text-xs sm:p-0">
-                  <h2 className="mb-4 mobile-mt-2 text-4xl sm:text-2xl">Educations</h2>
+                  <h2 className="mb-4 mobile-mt-2 text-3xl font-bold">Educations</h2>
 
                     <div className="timeline">
                     

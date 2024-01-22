@@ -1,8 +1,9 @@
 import '../styles/Components.css'
 import Image from 'next/image';
 import { Pixelify_Sans } from 'next/font/google'
-import { Instagram, GithubIcon, LinkedinIcon, Dribbble, Pencil } from "lucide-react"
-
+import { Instagram, GithubIcon, LinkedinIcon, Dribbble } from "lucide-react"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBehance } from '@fortawesome/free-brands-svg-icons'
 import Link from 'next/link';
 
 const Font = Pixelify_Sans({
@@ -29,7 +30,7 @@ export default function Footer(){
               <Dribbble/>
             </Link>
             <Link href='https://www.behance.net/gianmarchetti' className='mt-4'> 
-              <Pencil/>
+              <FontAwesomeIcon icon={faBehance} />
             </Link>
         </div>
         <Link href='https://linktr.ee/GianMarchetti' className="aLink">

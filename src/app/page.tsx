@@ -13,20 +13,17 @@ import Skills from './components/Skills';
 export default function App() {
     return (
         <main>
-            <div id='about'>
+            <div>
                 <Presentation />
             </div>
             <div id='work'>
                 <Projects />
             </div>
-            <div>
+            <div id='exp'>
                 <WorkExperience />
             </div>
-            <div>
-                {/* <Skills /> */}
-            </div>
-            <div>
-
+            <div id='skills'>
+                <Skills />
             </div>
             <div id='contact'>
                 <Contact />

@@ -6,8 +6,7 @@
 
 .Buttons {
     width: fit-content;
-    height: 150px;
-    margin: 0% !important;
+    /* height: 150px; */
     padding: 16px;
     display: flex;
     flex-direction: column;
@@ -23,15 +22,15 @@
     margin-top: 2em;
     margin-left: 160px;
     padding: 8px;
-    /* bottom: -20; */
-    /* position: absolute; */
 }
 
 .redes {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    width: 15em;
+    gap: 8px;
+    flex-wrap: wrap;
+    width: 100%;
     padding: 8px;
 }
 
@@ -50,12 +49,9 @@
 
 @media screen and (max-width: 450px) {
     .Buttons{
-        padding: 0px;
-    }
-    .BtnContact{
         display: none;
     }
     .footer{
-        margin-left: 96px;
+        margin-left: 0px;
     }
 }
