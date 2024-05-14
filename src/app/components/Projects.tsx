@@ -52,7 +52,7 @@ export default function Projects(){
                         <div className="p-2">
                             <h2 className="text-2xl">CasaBonita</h2>
                             <p className="mb-2">Next Js</p>
-                            <Link href='https://github.com/GianMarchetti/casabonita-app' className="bg-green-800 p-2 mt-4">Visit Page</Link>
+                            <Link href='https://github.com/GianMarchetti/casabonita-app' className="bg-green-800 p-2 mt-4">Source Code</Link>
                         </div>
                         <div className="middle w-full">
                                 <div className="bg-white dark:bg-black text-black dark:text-white text-medium p-10 h-full w-full rounded-3xl">
@@ -81,7 +81,7 @@ export default function Projects(){
                             <div className="bg-white dark:bg-black text-black dark:text-white text-medium p-10 h-full w-full rounded-3xl">
                                 <p className='font-bold text-3xl pt-4'>IND MAMBA</p>
                                 <p className='pt-2 text-lg mb-4'>a site selling basketball shoes and clothing.</p>
-                                <Link href='https://gianmarchetti.github.io/Proyecto-Coder/' className="bg-red-800 p-2 mt-4">Source Code</Link>
+                                <Link href='https://gianmarchetti.github.io/Proyecto-Coder/' className="bg-red-800 p-2 mt-4">Visit Page</Link>
                             </div>
                         </div>
                     </article>

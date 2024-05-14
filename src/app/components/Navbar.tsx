@@ -16,7 +16,7 @@ const linksNav = [
   route: '/',
 },{
   label: 'About',
-  route: '/components/About'
+  route: '#About'
 },{
   label: 'Work',
   route: '#work'

@@ -49,7 +49,7 @@ export default function WorkExperience(){
                             </div>
                             <div className="timelineInfo">
                                 <h3><span>Front End Developer</span><small>Coderhouse</small></h3>
-                                <p>Career composed of 3 courses, these are Web Development, JavaScript, React Js. Final exams passed with an average of 8</p>
+                                <p>Career composed of 3 courses, these are Web Development, JavaScript, React Js. I learned Html5, Css3, Scss, Git, GitHub, Bootstrap5 and Seo</p>
                             </div>
                         </div>
 
@@ -59,7 +59,7 @@ export default function WorkExperience(){
                             </div>
                             <div className="timelineInfo">
                                 <h3><span>Front End</span><small>Autonomous</small></h3>
-                                <p>Complementary technologies courses that help me improve as a developer. Like Next JS, TailwindCSS, Sanity and more</p>
+                                <p>Complementary technologies courses that help me improve as a developer. Like Next JS, TailwindCSS, Sanity and learning more.</p>
                             </div>
                         </div>
 
