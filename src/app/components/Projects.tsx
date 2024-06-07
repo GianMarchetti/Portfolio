@@ -1,5 +1,5 @@
 import { Button, Image } from "@nextui-org/react";
-import { Github, Linkedin, Dribbble, Download } from "lucide-react"
+// import { Github, Linkedin, Dribbble, Download } from "lucide-react"
 import NextImage from 'next/image'
 import Link from "next/link"
 import '../styles/projects.css'
@@ -20,7 +20,7 @@ export default function Projects(){
                         <Link href='https://tecno-fm.vercel.app/' 
                         className="h-fit w-fit p-4" >
                             <Image src="https://i.ibb.co/qmxRfff/logo.jpg" 
-                                className='image rounded-3xl p-2 shadow-md shadow-red-950 border-2 border-black dark:border-white' 
+                                className='image rounded-3xl p-2 shadow-md shadow-red-950 border-2 border-black dark:border-white dark:bg-white' 
                                 width={800} height={800} 
                                 alt="Project TecnoFM" 
                                 as={NextImage}
@@ -44,7 +44,7 @@ export default function Projects(){
                         <Link href='https://casabonita-app.vercel.app/'
                         className="h-fit w-fit p-4">
                             <Image src="https://i.ibb.co/C5TcSXP/Logo-casa-bonita.jpg" 
-                                className='image rounded-3xl p-2 shadow-md shadow-red-950 border-2 border-black dark:border-white' 
+                                className='image rounded-3xl p-2 shadow-md shadow-red-950 border-2 border-black dark:border-white dark:bg-white' 
                                 width={800} height={800} 
                                 alt="Project CasaBonita" 
                             />
@@ -63,7 +63,7 @@ export default function Projects(){
                             </div>
                     </article>
 
-                    <article className="containerIM">
+                    {/* <article className="containerIM">
                         <Link href='https://gianmarchetti.github.io/Proyecto-Coder/' 
                         className="h-fit md:w-full p-4">
                             <Image src="https://i.ibb.co/g6x9dcW/logo-Ind-Mamba.png" 
@@ -84,32 +84,32 @@ export default function Projects(){
                                 <Link href='https://gianmarchetti.github.io/Proyecto-Coder/' className="bg-red-800 p-2 mt-4">Visit Page</Link>
                             </div>
                         </div>
-                    </article>
+                    </article> */}
 
-                    {/* <article className="containerIM">
-                        <Link href='https://github.com/GianMarchetti/TecnoFm' 
-                        className="h-fit w-fit p-4" >
-                            <Image src="https://i.ibb.co/qmxRfff/logo.jpg" 
-                                className='image rounded-3xl p-2 shadow-md shadow-red-950 border-2 border-black dark:border-white' 
+                    <article className="containerIM">
+                        <Link href='https://casabonita-app.vercel.app/'
+                        className="h-fit w-fit p-4">
+                            <Image src="https://i.ibb.co/Vxy3q6j/logo-Chefsito.png" 
+                                className='image rounded-3xl p-2 shadow-md shadow-red-950 border-2 border-black dark:border-white dark:bg-white' 
                                 width={800} height={800} 
-                                alt="Project TecnoFM" 
-                                as={NextImage}
+                                alt="Project CasaBonita" 
                             />
                         </Link>
                         <div className="p-2">
-                            <h2 className="text-2xl">Title</h2>
-                            <p>Next Js</p>
+                            <h2 className="text-2xl">Traiteurs Chefsito</h2>
+                            <p className="mb-2">Next Js</p>
+                            <Link href='https://github.com/GianMarchetti/gourmet-catering-chefsito' className="bg-green-800 p-2 mt-4">Source Code</Link>
                         </div>
                         <div className="middle w-full">
-                            <div className="bg-black text-white text-medium p-10 h-full w-full rounded-3xl">
-                                <p className='font-bold text-3xl pt-4'>Tecno FM</p>
-                                <p className='pt-2 text-lg mb-4'>a cellphone, computer and tablet repair site.</p>
-                                <Link href='https://github.com/GianMarchetti/TecnoFm' className="bg-green-800 p-2 mt-4 opacity-100">Source Code</Link>
+                                <div className="bg-white dark:bg-black text-black dark:text-white text-medium p-10 h-full w-full rounded-3xl">
+                                    <p className='font-bold text-3xl pt-4'>Traiteurs Chefsito</p>
+                                    <p className='pt-2 text-lg mb-4'>a landing page of french gourmet catering service called chefsito</p>
+                                    <Link href='https://gourmet-catering-chefsito.vercel.app/' className="bg-red-800 p-2 mt-4">Visit Page</Link>
+                                </div>
                             </div>
-                        </div>
                     </article> 
                     
-                    <article className="containerIM">
+                {/* <article className="containerIM">
                         <Link href='https://github.com/GianMarchetti/casabonita-app/'
                         className="h-fit w-fit p-4">
                             <Image src="https://i.ibb.co/C5TcSXP/Logo-casa-bonita.jpg" 
