@@ -96,7 +96,7 @@ export function NavBar () {
 
             <div className="Buttons">
               <ThemeToggle />
-              <Link href={`#Contact`} className="BtnContact"> 
+              <Link href={`#contact`} className="BtnContact"> 
                 <Button className='w-fit text-white bg-black dark:bg-white dark:text-black'>
                   Let's Talk
                 </Button> 
