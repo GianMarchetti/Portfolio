@@ -17,7 +17,7 @@ export default function Presentation(){
                     />
                 </div>
                 <div className="text-center p-4  md:w-full xxl:w-1/4">
-                    <h2 className="text-xl text-red-950 sm:text-xs font-semibold">I'm Gian Luca Marchetti</h2>
+                    <h2 className="text-xl text-red-950 sm:text-xs font-semibold">I am Gian Luca Marchetti</h2>
                     <h1 className="text-6xl mt-1 mb-3 text-red-700 dark:text-white sm:text-4xl font-bold">Front End Developer</h1>
                     <h3 className="text-lg text-red-950 sm:text-xs font-semibold">Passionate about everything I do and looking to face new challenges</h3>
 
