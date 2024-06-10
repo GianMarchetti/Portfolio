@@ -41,7 +41,7 @@ export function NavBar () {
 
         <nav className='h-full w-full flex flex-col items-start justify-between sm:flex-row'>
 
-          <div className=" flex flex-col h-fit w-full max-w-full items-start justify-between p-4 sm:text-xs sm:p-0 sm:flex-row">
+          <div className=" flex flex-col h-fit w-full max-w-full items-start justify-between p-0 sm:text-xs sm:p-0 sm:flex-row">
 
 {/* -------------------------- Links Navbar Mobile --------------- */}
 
@@ -60,7 +60,7 @@ export function NavBar () {
                 {linksNav.map(({route, label}) => (
                   <DropdownItem
                     key={route}
-                    className=' text-white dark:text-black'
+                    className=' text-white dark:text-black font-semibold'
                   >
                     <Link href={route}>
                       {label}
@@ -81,9 +81,9 @@ export function NavBar () {
 
 {/* --------------- Links Navbar Desktop ------------------------- */}
             <div className="flex items-start sm:hidden">
-              <ul className='relative h-fit top-auto items-start justify-center bg-transparent flex-col sm:flex-row' >
+              <ul className='relative h-fit w-fit top-auto items-start justify-center bg-transparent flex-col sm:flex-row' >
                   {linksNav.map(({ label, route }) => (
-                  <li key={route} className='relative h-fit top-auto flex-row text-black dark:text-white'>
+                  <li key={route} className='relative h-fit top-auto flex-row text-black dark:text-white font-semibold hover:bg-gray-100 rounded-lg  hover:w-full hover:text-red-600  dark:hover:bg-gray-950 '>
                     <Link href={route}>
                       {label}
                     </Link>

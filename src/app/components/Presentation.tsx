@@ -1,5 +1,5 @@
 import { Button, Image } from "@nextui-org/react";
-import { Github, Linkedin, Dribbble, Download, FileText } from "lucide-react"
+import { Github, Linkedin, Dribbble, FileText } from "lucide-react"
 import NextImage from 'next/image'
 import Link from "next/link"
 
@@ -16,10 +16,10 @@ export default function Presentation(){
                         className='flex items-center z-10 opacity-1 rounded-none'
                     />
                 </div>
-                <div className="text-center p-4 w-2/4 md:w-full xxl:w-1/4">
-                    <h2 className="text-xl text-red-950 sm:text-xs">Gian Luca Marchetti</h2>
-                    <h1 className="text-6xl mt-1 mb-3 text-red-700 dark:text-white sm:text-4xl">Front End Developer</h1>
-                    <h3 className="text-lg text-red-950 sm:text-xs">Passionate about everything I do and looking to face new challenges</h3>
+                <div className="text-center p-4  md:w-full xxl:w-1/4">
+                    <h2 className="text-xl text-red-950 sm:text-xs font-semibold">I'm Gian Luca Marchetti</h2>
+                    <h1 className="text-6xl mt-1 mb-3 text-red-700 dark:text-white sm:text-4xl font-bold">Front End Developer</h1>
+                    <h3 className="text-lg text-red-950 sm:text-xs font-semibold">Passionate about everything I do and looking to face new challenges</h3>
 
                     <div className='flex justify-evenly mt-6'>
                         <Link href='https://www.linkedin.com/in/gian-marchetti-8713ba1b6/?locale=en_US'>
