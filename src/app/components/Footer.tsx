@@ -17,9 +17,6 @@ export default function Footer(){
       <footer className='footer border-t border-slate-300 flex flex-col items-center text-center mt-2 p-2'>
         <p>Follow me</p>
         <div className="redes">
-            <Link href='https://www.instagram.com/gian_marchetti' className='mt-4'> 
-              <Instagram/>
-            </Link>
             <Link href='https://github.com/GianMarchetti' className='mt-4'> 
               <GithubIcon/>
             </Link>

@@ -1,8 +1,4 @@
 'use client'
-import styles from './styles/home.module.css'
-import { Image } from "@nextui-org/react";
-import NextImage from 'next/image'
-import Link from "next/link"
 import Presentation from './components/Presentation';
 import WorkExperience from './components/WorkExperience';
 import Projects from './components/Projects';
@@ -12,7 +8,7 @@ import Skills from './components/Skills';
 
 export default function App() {
     return (
-        <main>
+        <main className='bg-slate-50 dark:bg-zinc-950'>
             <div>
                 <Presentation />
             </div>

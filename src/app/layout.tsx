@@ -18,9 +18,9 @@ interface RootLayoutProps {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="en" className={gabarito.className}>
+    <html lang="en" className={gabarito.className} >
       <body  className={cn(
-            "min-h-screen bg-background antialiased",
+            "min-h-screen antialiased bg-background",'bg-slate-50 dark:bg-zinc-950'
           )}>
       <Providers>
         <NavBar />

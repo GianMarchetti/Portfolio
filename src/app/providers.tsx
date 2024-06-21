@@ -10,7 +10,7 @@ interface Props {
 
 export function  Providers({ children }: Props) {
   return <>
-  <NextUIProvider>
+  <NextUIProvider >
     <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
       <Toaster />
     {children}

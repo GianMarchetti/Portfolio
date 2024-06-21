@@ -15,9 +15,6 @@ const linksNav = [
   label: 'Home',
   route: '/',
 },{
-  label: 'About',
-  route: '#About'
-},{
   label: 'Work',
   route: '#work'
 },{
@@ -37,7 +34,7 @@ export function NavBar () {
   
   return (
     <>
-      <header className="fixed left-0 top-0 z-40 h-full w-40 border-r bg-background p-2 overflow-hidden sm:h-fit sm:w-full sm:border-r-0 sm:p-4 sm:border-b">
+      <header className="fixed left-0 top-0 z-40 h-full w-40 border-r bg-slate-50 dark:bg-zinc-950 p-2 overflow-hidden sm:h-fit sm:w-full sm:border-r-0 sm:p-4 sm:border-b">
 
         <nav className='h-full w-full flex flex-col items-start justify-between sm:flex-row'>
 
@@ -49,18 +46,18 @@ export function NavBar () {
               <DropdownTrigger>
                 <Button 
                   variant="bordered" 
-                  className='hidden sm:block bg-black text-white dark:bg-white dark:text-black m-0 w-fit text-center'
+                  className='hidden sm:block font-bold bg-zinc-500 text-black dark:bg-zinc-800 dark:text-white m-0 w-fit text-center'
                 >
                   Menu
                 </Button>
               </DropdownTrigger>
               <DropdownMenu aria-label="Dynamic Actions" items={linksNav}
-                    className='h-fit bg-black dark:bg-white'
+                    className='h-fit bg-zinc-500  dark:bg-zinc-800'
                     >
                 {linksNav.map(({route, label}) => (
                   <DropdownItem
                     key={route}
-                    className=' text-white dark:text-black font-semibold'
+                    className='text-black dark:text-white font-bold'
                   >
                     <Link href={route}>
                       {label}
@@ -83,7 +80,7 @@ export function NavBar () {
             <div className="flex items-start sm:hidden">
               <ul className='relative h-fit w-fit top-auto items-start justify-center bg-transparent flex-col sm:flex-row' >
                   {linksNav.map(({ label, route }) => (
-                  <li key={route} className='relative h-fit top-auto flex-row text-black dark:text-white font-semibold hover:bg-gray-100 rounded-lg  hover:w-full hover:text-red-600  dark:hover:bg-gray-950 '>
+                  <li key={route} className='relative h-fit top-auto flex-row text-black dark:text-white font-semibold hover:bg-gray-100 rounded-lg  hover:w-full hover:text-red-700  dark:hover:bg-zinc-900 '>
                     <Link href={route}>
                       {label}
                     </Link>
@@ -97,7 +94,7 @@ export function NavBar () {
             <div className="Buttons">
               <ThemeToggle />
               <Link href={`#contact`} className="BtnContact"> 
-                <Button className='w-fit text-white bg-black dark:bg-white dark:text-black'>
+                <Button className='w-fit text-white bg-zinc-950 dark:bg-slate-50 dark:text-black'>
                   Let's Talk
                 </Button> 
               </Link>

@@ -1,12 +1,11 @@
 import { Button, Image } from "@nextui-org/react";
-// import { Github, Linkedin, Dribbble, Download } from "lucide-react"
 import NextImage from 'next/image'
 import Link from "next/link"
 import '../styles/projects.css'
 
 export default function Projects(){
     return(
-            <section className="flex flex-col justify-center items-center p-8 w-full">
+            <section className="flex flex-col justify-center items-center p-8 w-full h-fit mb-40">
 
                 <div className='w-full'>
 
@@ -20,7 +19,7 @@ export default function Projects(){
                         <Link href='https://tecno-fm.vercel.app/' 
                         className="h-fit w-fit p-4" >
                             <Image src="https://i.ibb.co/qmxRfff/logo.jpg" 
-                                className='image rounded-3xl p-2 shadow-md shadow-red-950 border-2 border-black dark:border-white dark:bg-white' 
+                                className='image rounded-3xl p-2 shadow-md shadow-zinc-800 border-2 border-black dark:border-white dark:bg-white' 
                                 width={800} height={800} 
                                 alt="Project TecnoFM" 
                                 as={NextImage}
@@ -44,7 +43,7 @@ export default function Projects(){
                         <Link href='https://casabonita-app.vercel.app/'
                         className="h-fit w-fit p-4">
                             <Image src="https://i.ibb.co/C5TcSXP/Logo-casa-bonita.jpg" 
-                                className='image rounded-3xl p-2 shadow-md shadow-red-950 border-2 border-black dark:border-white dark:bg-white' 
+                                className='image rounded-3xl p-2 shadow-md shadow-zinc-800 border-2 border-black dark:border-white dark:bg-white' 
                                 width={800} height={800} 
                                 alt="Project CasaBonita" 
                             />
@@ -67,7 +66,7 @@ export default function Projects(){
                         <Link href='https://gianmarchetti.github.io/Proyecto-Coder/' 
                         className="h-fit md:w-full p-4">
                             <Image src="https://i.ibb.co/g6x9dcW/logo-Ind-Mamba.png" 
-                                className='image rounded-3xl p-2 shadow-md shadow-red-950 border-2 border-black dark:border-white' 
+                                className='image rounded-3xl p-2 shadow-md shadow-zinc-800 border-2 border-black dark:border-white' 
                                 width={800} height={800}
                                 alt="Project Ind Mamba" 
                             />
@@ -87,12 +86,12 @@ export default function Projects(){
                     </article> */}
 
                     <article className="containerIM">
-                        <Link href='https://casabonita-app.vercel.app/'
+                        <Link href='https://gourmet-catering-chefsito.vercel.app/'
                         className="h-fit w-fit p-4">
                             <Image src="https://i.ibb.co/Vxy3q6j/logo-Chefsito.png" 
-                                className='image rounded-3xl p-2 shadow-md shadow-red-950 border-2 border-black dark:border-white dark:bg-white' 
+                                className='image rounded-3xl p-2 shadow-md shadow-zinc-800 border-2 border-black dark:border-white dark:bg-white' 
                                 width={800} height={800} 
-                                alt="Project CasaBonita" 
+                                alt="Project Traiteurs Chefsito" 
                             />
                         </Link>
                         <div className="p-2">
@@ -113,7 +112,7 @@ export default function Projects(){
                         <Link href='https://github.com/GianMarchetti/casabonita-app/'
                         className="h-fit w-fit p-4">
                             <Image src="https://i.ibb.co/C5TcSXP/Logo-casa-bonita.jpg" 
-                                className='image   rounded-3xl p-2 shadow-md shadow-red-950 border-2 border-black dark:border-white' 
+                                className='image   rounded-3xl p-2 shadow-md shadow-zinc-800 border-2 border-black dark:border-white' 
                                 width={800} height={800} 
                                 alt="Project CasaBonita" 
                             />
@@ -135,7 +134,7 @@ export default function Projects(){
                         <Link href='https://github.com/GianMarchetti/Proyecto-Coder' 
                         className="h-fit md:w-full p-4">
                             <Image src="https://i.ibb.co/g6x9dcW/logo-Ind-Mamba.png" 
-                                className='image   rounded-3xl p-2 shadow-md shadow-red-950 border-2 border-black dark:border-white' 
+                                className='image   rounded-3xl p-2 shadow-md shadow-zinc-800 border-2 border-black dark:border-white' 
                                 width={800} height={800}
                                 alt="Project Ind Mamba" 
                             />
