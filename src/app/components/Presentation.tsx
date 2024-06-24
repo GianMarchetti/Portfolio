@@ -20,7 +20,7 @@ export default function Presentation(){
 
                     <h2 className="text-xl text-red-950 sm:text-sm font-semibold">Hello</h2>
 
-                    <h1 className="text-5xl mt-1 mb-3 text-red-700 dark:text-white sm:text-4xl font-semibold">{"I'm "}<strong className="block">Gian</strong> a Front End Developer</h1>
+                    <h1 className="text-6xl mt-1 mb-3 text-red-700 dark:text-white sm:text-4xl font-semibold">{"I'm "}<strong className="block">Gian</strong> a Front End Developer</h1>
                     
                     <h3 className="text-lg text-red-950 sm:text-sm font-semibold">Passionate about everything I do and looking to face new challenges</h3>
 

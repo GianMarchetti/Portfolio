@@ -31,7 +31,7 @@ export default function Projects(){
                             <Link href='https://github.com/GianMarchetti/TecnoFm' className="bg-green-800 p-2 mt-4 opacity-100">Source Code</Link>
                         </div>
                         <div className="middle w-full">
-                            <div className="bg-white dark:bg-black text-black dark:text-white text-medium p-10 h-full w-full rounded-3xl">
+                            <div className=" text-black dark:text-white text-medium p-10 h-full w-full rounded-3xl">
                                 <p className='font-bold text-3xl pt-4'>Tecno FM</p>
                                 <p className='pt-2 text-lg mb-4'>a cellphone, computer and tablet repair site.</p>
                                 <Link href='https://tecno-fm.vercel.app/' className="bg-red-800 p-2 mt-4 opacity-100">Visit Page</Link>
@@ -54,7 +54,7 @@ export default function Projects(){
                             <Link href='https://github.com/GianMarchetti/casabonita-app' className="bg-green-800 p-2 mt-4">Source Code</Link>
                         </div>
                         <div className="middle w-full">
-                                <div className="bg-white dark:bg-black text-black dark:text-white text-medium p-10 h-full w-full rounded-3xl">
+                                <div className=" text-black dark:text-white text-medium p-10 h-full w-full rounded-3xl">
                                     <p className='font-bold text-3xl pt-4'>CasaBonita</p>
                                     <p className='pt-2 text-lg mb-4'>an interior decoration site that sells products and services.</p>
                                     <Link href='https://casabonita-app.vercel.app/' className="bg-red-800 p-2 mt-4">Visit Page</Link>
@@ -100,7 +100,7 @@ export default function Projects(){
                             <Link href='https://github.com/GianMarchetti/gourmet-catering-chefsito' className="bg-green-800 p-2 mt-4">Source Code</Link>
                         </div>
                         <div className="middle w-full">
-                                <div className="bg-white dark:bg-black text-black dark:text-white text-medium p-10 h-full w-full rounded-3xl">
+                                <div className=" text-black dark:text-white text-medium p-10 h-full w-full rounded-3xl">
                                     <p className='font-bold text-3xl pt-4'>Traiteurs Chefsito</p>
                                     <p className='pt-2 text-lg mb-4'>a landing page of french gourmet catering service called chefsito</p>
                                     <Link href='https://gourmet-catering-chefsito.vercel.app/' className="bg-red-800 p-2 mt-4">Visit Page</Link>

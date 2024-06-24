@@ -4,6 +4,7 @@ import '../styles/contact.css'
 import axios from 'axios';
 import React, { useState } from 'react';
 import { MailIcon, Linkedin, PhoneIcon,  } from "lucide-react"
+import Link from "next/link";
 
 export default function Contact() {
 
@@ -41,16 +42,12 @@ export default function Contact() {
             <div className="flex flex-col items-start my-4 p-2">
                 <div className="flex items-center justify-center gap-4 my-2">
                     <MailIcon className='shadow-inner shadow-zinc-800 rounded-2xl p-2 h-12 w-12' />
-                    <span>webdevwizard@gmail.com</span>
+                    <span>gian11marchetti@gmail.com</span>
                 </div>
-                <div className="flex items-center justify-center gap-4 my-2">
-                    <PhoneIcon className='shadow-inner shadow-zinc-800 rounded-2xl p-2 h-12 w-12' />
-                    <span>+99 12 48 76 95</span>
-                </div>
-                <div className="flex items-center justify-center gap-4 my-2">
+                <Link className="flex items-center justify-center gap-4 my-2" href='https://www.linkedin.com/in/gian-marchetti-8713ba1b6/'>
                     <Linkedin className='shadow-inner shadow-zinc-800 rounded-2xl p-2 h-12 w-12' />
-                    <span>@WebDevWizard0</span>
-                </div>
+                    <span>@Gian-Marchetti</span>
+                </Link>
             </div>
             <p className="text-xl font-semibold">or</p>
             <h3 className="text-2xl font-semibold text-center">Contact me by filling out this form!</h3>
