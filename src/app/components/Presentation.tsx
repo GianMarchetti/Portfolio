@@ -5,8 +5,8 @@ import Link from "next/link"
 
 export default function Presentation(){
     return(
-            <section className="flex flex-row-reverse justify-evenly items-center w-full md:flex-col sm:text-xs mt-4 h-screen sm:h-auto">
-                <div className='sm:w-2/3 w-1/3 xxl:w-1/4 md:mt-4 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-slate-50 from-60% via-red-800 via-65% to-slate-50 to-70% dark:from-zinc-950 dark:via-red-950 dark:to-zinc-950 z-10 flex justify-center'>
+            <section className="flex lg:flex-row-reverse justify-evenly items-center w-full flex-col sm:text-xs mt-4 h-screen sm:h-auto">
+                <div className='md:w-2/3 w-1/3 xxl:w-1/4 md:mt-4 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-slate-50 from-60% via-red-800 via-65% to-slate-50 to-70% dark:from-zinc-950 dark:via-red-950 dark:to-zinc-950 z-10 flex justify-center'>
                     <Image
                         as={NextImage} 
                         src='https://i.ibb.co/Lv9y4M1/me.png'
@@ -16,7 +16,7 @@ export default function Presentation(){
                         className='flex items-center z-10 opacity-1 rounded-none'
                     />
                 </div>
-                <div className="sm:text-center text-start w-1/3 p-4  md:w-2/3 xxl:w-1/4">
+                <div className="sm:text-center text-start w-2/3 p-4 lg:w-1/3 xxl:w-1/4">
 
                     <h2 className="text-xl text-red-950 sm:text-sm font-semibold">Hello</h2>
 

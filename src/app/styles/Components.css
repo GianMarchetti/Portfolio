@@ -6,8 +6,6 @@
 
 .Buttons {
     width: fit-content;
-    /* height: 150px; */
-    /* padding: 16px; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -47,7 +45,7 @@
     font-size: 10px;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 650px) {
     .Buttons{
         display: none;
     }

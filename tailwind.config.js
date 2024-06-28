@@ -5,27 +5,30 @@ const { nextui } = require("@nextui-org/react");
 module.exports = {
   content: [
     // ...
-    './node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}',
+    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
- 
+
     // Or if using `src` directory:
-    "./src/**/*.{js,ts,jsx,tsx,mdx}"
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
       colors: {},
-      screens:{
-        'xxl': {'min': '1500px'},
-        'md': {'max': '850px'},
-        'sm': {'max': '460px'},
-      }
+      screens: {
+        xxl: { min: "1500px" },
+        xl: { min: "1200px" },
+        lg: { min: "950px" },
+        md: { max: "650px" },
+        sm: { max: "460px" },
+      },
     },
   },
   darkMode: "class",
-  plugins: [nextui({
-      addCommonColors:true,
-      }
-  )]
-}
+  plugins: [
+    nextui({
+      addCommonColors: true,
+    }),
+  ],
+};
