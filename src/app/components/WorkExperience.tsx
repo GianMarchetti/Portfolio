@@ -1,22 +1,23 @@
-import '../styles/work.style.css'
+import '../styles/work.css'
 
 import { Button, Image } from "@nextui-org/react";
 import { Github, Linkedin, Dribbble } from "lucide-react"
 import NextImage from 'next/image'
 import Link from "next/link"
 
+
 export default function WorkExperience(){
     return(
         <section className="p-8 w-full flex justify-center text-left text-black dark:text-white">
-        <div className="container border-2 p-4 sm:p-2">
+        <div className="container border-2 dark:border-zinc-900 p-4 sm:p-2">
             <div className="flex md:flex-col">
 
-                <div className="col-lg-6 col-12 border-r dark:border-white p-4 w-2/4 md:w-full md:border-b md:border-r-0 sm:text-xs sm:p-0 sm:mb-2">
+                <div className="col-lg-6 col-12 border-r dark:border-zinc-900 p-4 w-2/4 md:w-full md:border-b md:border-r-0 sm:text-xs sm:p-0 sm:mb-2">
                   <h2 className="mb-4 text-3xl font-bold">Work Experience</h2>
 
                     <div className="timeline">
-                        <div className="timelineWrapper">
-                             <div className="timelineYR">
+                        <div className="timelineWrapper last:before:h-0 before:content-[''] before:bg-zinc-500 before:dark:bg-zinc-900 before:w-1 before:h-full before:absolute before:left-9">
+                             <div className="timelineYR bg-zinc-500 dark:bg-zinc-900">
                                   <span>Present</span>
                              </div>
                              <div className="timelineInfo">
@@ -26,7 +27,7 @@ export default function WorkExperience(){
                         </div>
 
                         <div className="timelineWrapper">
-                            <div className="timelineYR">
+                            <div className="timelineYR bg-zinc-500 dark:bg-zinc-900">
                                 <span>Present</span>
                             </div>
                             <div className="timelineInfo">
@@ -43,8 +44,8 @@ export default function WorkExperience(){
 
                     <div className="timeline">
                     
-                        <div className="timelineWrapper">
-                            <div className="timelineYR">
+                        <div className="timelineWrapper last:before:h-0 before:content-[''] before:bg-zinc-500 before:dark:bg-zinc-900 before:w-1 before:h-full before:absolute before:left-9">
+                            <div className="timelineYR bg-zinc-500 dark:bg-zinc-900">
                                 <span>2021</span>
                             </div>
                             <div className="timelineInfo">
@@ -54,7 +55,7 @@ export default function WorkExperience(){
                         </div>
 
                         <div className="timelineWrapper">
-                            <div className="timelineYR">
+                            <div className="timelineYR bg-zinc-500 dark:bg-zinc-900">
                                 <span>2022</span>
                             </div>
                             <div className="timelineInfo">
@@ -64,7 +65,7 @@ export default function WorkExperience(){
                         </div>
 
                         {/* <div className="timelineWrapper">
-                            <div className="timelineYR">
+                            <div className="timelineYR bg-zinc-500 dark:bg-zinc-900">
                                 <span>2023</span>
                             </div>
                             <div className="timelineInfo">
@@ -74,7 +75,7 @@ export default function WorkExperience(){
                         </div> */}
 
                         {/* <div className="timelineWrapper">
-                            <div className="timelineYR">
+                            <div className="timelineYR bg-zinc-500 dark:bg-zinc-900">
                                 <span>2024</span>
                             </div>
                             <div className="timelineInfo">

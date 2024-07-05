@@ -14,7 +14,7 @@ const Font = Pixelify_Sans({
 export default function Footer(){
     return(
       <>
-      <footer className='footer border-t border-slate-300 flex flex-col items-center text-center mt-2 p-2'>
+      <footer className='footer border-t border-slate-300 dark:border-zinc-900 flex flex-col items-center text-center mt-2 p-2'>
         <p>Follow me</p>
         <div className="redes">
             <Link href='https://github.com/GianMarchetti' className='mt-4'> 

@@ -34,7 +34,7 @@ export function NavBar () {
   
   return (
     <>
-      <header className="fixed left-0 top-0 z-40 h-full w-40 border-r bg-slate-50 dark:bg-zinc-950 p-2 overflow-hidden md:h-fit md:w-full md:border-r-0 md:p-4">
+      <header className="fixed left-0 top-0 z-40 h-full w-40 border-r dark:border-zinc-900 bg-slate-50 dark:bg-zinc-950 p-2 overflow-hidden md:h-fit md:w-full md:border-r-0 md:p-4">
 
         <nav className='h-full w-full flex flex-col items-start justify-between md:flex-row'>
 

@@ -4,7 +4,7 @@
     padding: 22px 0;
   }
 
-  .timelineWrapper:last-child:before {
+  /* .timelineWrapper:last-child:before {
     height: 0;
   }
 
@@ -15,10 +15,9 @@
     height: 100%;
     position: absolute;
     left: 38px;
-  }
+  } */
   
   .timelineYR {
-    background: #474559;
     border-radius: 100%;
     position: absolute;
     width: 75px;
