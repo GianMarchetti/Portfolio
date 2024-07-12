@@ -19,6 +19,7 @@
     "@heroicons/react": "^2.0.18",
     "@nextui-org/react": "^2.1.13",
     "@radix-ui/react-toast": "^1.1.5",
+    "@vercel/speed-insights": "^1.0.12",
     "axios": "^1.6.5",
     "class-variance-authority": "^0.7.0",
     "framer-motion": "^10.16.4",

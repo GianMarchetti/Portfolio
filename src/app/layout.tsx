@@ -4,6 +4,7 @@ import { NavBar } from './components/Navbar'
 import Footer from './components/Footer'
 import { Providers } from './providers'
 import { cn } from "../../lib/utils"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const gabarito = Gabarito({ subsets: ['latin'] })
 
@@ -25,6 +26,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <Providers>
         <NavBar />
         {children}
+        <SpeedInsights />
         <Footer />
       </Providers>
       </body>
